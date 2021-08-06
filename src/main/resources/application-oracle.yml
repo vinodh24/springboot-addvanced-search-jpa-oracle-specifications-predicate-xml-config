@@ -1,0 +1,19 @@
+server:
+  port: 6061
+     
+db:
+ active:
+   ipaddress: 10.0.13.70
+ standby:
+   ipaddress: 10.0.13.70  
+ database: orcl.blr.velankani.com
+ port: 1521
+ username: consolidated##device
+ password: eagger
+ file: database-oracle-app-context.xml
+
+spring:
+   main:
+     allow-bean-definition-overriding: true
+ 
+

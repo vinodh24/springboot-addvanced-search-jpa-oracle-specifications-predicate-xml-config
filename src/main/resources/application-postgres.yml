@@ -1,0 +1,17 @@
+server:
+  port: 6061
+     
+db:
+ active:
+   ipaddress: 10.0.16.122
+ standby:
+   ipaddress: 10.0.16.122  
+ database: consolidated-auth
+ port: 5432
+ username: consolidated
+ password: consolidated123
+ file: database-postgres-app-context.xml
+
+ 
+ 
+ 

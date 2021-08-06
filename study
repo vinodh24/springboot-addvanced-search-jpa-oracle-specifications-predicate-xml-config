@@ -1,0 +1,144 @@
+commit code to git commands
+
+
+1. git init .
+2. git remote add origin https://github.com/vinodh24/springboot-jpa-oracle-postgres-xml.git
+3. git add .
+4. git commit -m "first-commit"
+5. git push origin master
+
+
+
+
+1. save alarams
+
+http://localhost:6061/alarm/alarms
+
+[
+	{
+    "severity": "alarm",
+    "nodeName": "sangavaram",
+    "emsName": "vinodh",
+    "category": "alarm",
+    "occurrenceTime": null,
+    "occurrence": 0,
+    "emsIp": "alarm",
+    "nodeIp": "alarm",
+    "emsId": 0,
+    "nodeId": 0,
+    "protocol": "alarm",
+    "port": 0,
+    "identifier": "alarm",
+    "type": "alarm",
+    "tid": "alarm",
+    "sid": "alarm",
+    "receivedTime": null,
+    "alarmCode": "alarm",
+    "atag": "alarm",
+    "verb": "alarm",
+    "modifier1": "alarm",
+    "modifier2": "alarm",
+    "comment01": "alarm",
+    "comment02": "alarm",
+    "quotedline": "alarm",
+    "section1Field1": "alarm",
+    "section2Field1": "alarm",
+    "section2Field2": "alarm",
+    "section2Field3": "alarm",
+    "section2Field4": "alarm",
+    "section2Field5": "alarm",
+    "section2Field6": "alarm",
+    "section2Field7": "alarm",
+    "section2Field8": "alarm",
+    "section2Field9": "alarm",
+    "section2Field10": "alarm",
+    "section3Field1": "alarm",
+    "section3Field2": "alarm",
+    "section3Field3": "alarm",
+    "section3Field4": "alarm",
+    "section4Field1": "alarm",
+    "section4Field2": "alarm",
+    "trapRequestId": 0,
+    "location": "alarm"
+},
+{
+    "severity": "alarm",
+    "nodeName": "alarm",
+    "emsName": "kumar",
+    "category": "alarm",
+    "occurrenceTime": null,
+    "occurrence": 0,
+    "emsIp": "alarm",
+    "nodeIp": "alarm",
+    "emsId": 0,
+    "nodeId": 0,
+    "protocol": "alarm",
+    "port": 0,
+    "identifier": "alarm",
+    "type": "alarm",
+    "tid": "alarm",
+    "sid": "alarm",
+    "receivedTime": null,
+    "alarmCode": "alarm",
+    "atag": "alarm",
+    "verb": "alarm",
+    "modifier1": "alarm",
+    "modifier2": "alarm",
+    "comment01": "alarm",
+    "comment02": "alarm",
+    "quotedline": "alarm",
+    "section1Field1": "alarm",
+    "section2Field1": "alarm",
+    "section2Field2": "alarm",
+    "section2Field3": "alarm",
+    "section2Field4": "alarm",
+    "section2Field5": "alarm",
+    "section2Field6": "alarm",
+    "section2Field7": "alarm",
+    "section2Field8": "alarm",
+    "section2Field9": "alarm",
+    "section2Field10": "alarm",
+    "section3Field1": "alarm",
+    "section3Field2": "alarm",
+    "section3Field3": "alarm",
+    "section3Field4": "alarm",
+    "section4Field1": "alarm",
+    "section4Field2": "alarm",
+    "trapRequestId": 0,
+    "location": "alarm"
+}
+]
+
+
+2. getSearchParamJson to search based on fileds
+
+http://localhost:6061/alarm/getSearchParamJson
+
+
+
+3. search mechanisam
+
+http://localhost:6061/alarm/advanceSearch/getAllAlarms
+
+[
+    {
+        "field": "emsName",
+        "operation": "CONTAINS",
+        "value": null,
+        "values": [
+            "vinodh",
+            "navya"
+        ]
+    },
+    {
+        "field": "nodeName",
+        "operation": "CONTAINS",
+        "value": null,
+        "values": [
+            "sangavaram"
+        ]
+    }
+]
+
+
+
